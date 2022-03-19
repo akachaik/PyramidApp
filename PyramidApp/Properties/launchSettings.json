@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PyramidApp": {
+      "commandName": "Project",
+      "commandLineArgs": "4"
+    }
+  }
+}
