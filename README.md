@@ -4,4 +4,4 @@
 `PyramidApp.exe 15`
 
 ## Screenshot
-![[PyramidApp-Screenshot.png]]
+![Pyramid App](PyramidApp-Screenshot.png)
