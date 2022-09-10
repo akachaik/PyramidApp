@@ -28,20 +28,13 @@ Console.WriteLine();
 for (int line = 1; line <= level; line++)
 {
     Console.Write($"{line.ToString().PadLeft(level.ToString().Length)} ");
-    for (int i = 1; i <= spacesToPrint; i++)
-    {
-        Console.Write(" ");
-    }
+    Console.Write(new string(' ', spacesToPrint));
 
     var numberXsToPrint = 2 * line - 1;
-    for (int j = 1; j <= numberXsToPrint; j++)
-    {
-        Console.Write("X");
-    }
+    Console.Write(new string('X', numberXsToPrint));
+
     Console.WriteLine();
     spacesToPrint--;
 }
 
 Console.WriteLine();
-Console.WriteLine("Press enter to exit");
-Console.ReadLine();
